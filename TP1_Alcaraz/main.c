@@ -3,7 +3,6 @@
 #include <conio.h>
 #include "funciones.h"
 
-void suma(float x, float y);
 int main()
 {
     char seguir='s';
@@ -23,7 +22,7 @@ int main()
         printf("8- Calcular todas las operaciones\n");
         printf("9- Salir\n\n");
 
-        fflush(stdin);
+
         scanf("%d",&opcion);
 
         switch(opcion)
@@ -94,15 +93,16 @@ int main()
                 seguir = 'n';
                 break;
             }
-            default:
+             default:
             {
-                system("cls");
-                printf("Esa opcion no existe, ingrese una entre el 1 y el 9\n");
-                system("pause");
-                break;
+            printf("\nError, esa opcion no es valida. Elija una opcion entre 1 y 9\n\n");
+            system("pause");
+
+            break;
             }
         }
-    system("cls");
+        system("cls");
+        fflush(stdin);
     }
     return 0;
 }
