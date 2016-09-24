@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1474659414 source:d:\mis cosas\mis vídeos\tps utn\tp2_utn_ab_1\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"Funciones.h"
+	<string.h>
+
+1474659442 d:\mis cosas\mis vídeos\tps utn\tp2_utn_ab_1\funciones.h
+
+1474659804 source:d:\mis cosas\mis vídeos\tps utn\tp2_utn_ab_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Funciones.h"
+	<string.h>
+
+1474659414 source:c:\users\ezequiel\desktop\tp2_alcaraz\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"Funciones.h"
+	<string.h>
+
+1474659442 c:\users\ezequiel\desktop\tp2_alcaraz\funciones.h
+
+1474659804 source:c:\users\ezequiel\desktop\tp2_alcaraz\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Funciones.h"
+	<string.h>
+
