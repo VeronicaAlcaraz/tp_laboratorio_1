@@ -51,7 +51,7 @@ int main()
                     item[pos].estado = 1;
                 }
                 else
-                    printf("Todos los espacios est·n completos");
+                    printf("Todos los espacios est√°n completos");
                 system("cls");
                 break;
 
@@ -65,7 +65,7 @@ int main()
                    printf("Se ha borrado a la persona con exito!!\n\n");
                 }
                 else
-                    printf("La persona todavÌa no fue dada de alta.\n");
+                    printf("La persona todav√≠a no fue dada de alta.\n");
                     system("pause");
 
                 break;
@@ -80,6 +80,7 @@ int main()
                 printf("\n");
                 system("cls");
                mostrarGrafico(item);
+               system("pause");
                 break;
 
             case 5:
