@@ -10,7 +10,7 @@ typedef struct {
 
 }EPersona;
 
-int validarOpcion();
+
  /**
  * Da un valor inicial a cada array.
  * @param iniciar se pasa como parametro.
