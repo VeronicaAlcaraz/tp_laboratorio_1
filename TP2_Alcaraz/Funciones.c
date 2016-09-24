@@ -79,12 +79,24 @@ void mostrarGrafico(EPersona lista[])
                     if(lista[i].estado == 1 && lista[i].edad > 35)
                         mayorDe35++;
                 }
-                if(hasta18 >= de19a35 && hasta18 >= mayorDe35)
-                    mayor = hasta18;
-                if(de19a35 >= hasta18 && de19a35 >= mayorDe35)
-                    mayor = de19a35;
-                if(mayorDe35 >= de19a35 && mayorDe35 >= de19a35)
-                    mayor = mayorDe35;
+                 if(hasta18 >= de19a35 && hasta18 >= mayorDe35)
+                {
+                  mayor = hasta18;
+                }
+                else
+                {
+                    if(de19a35 >= hasta18 && de19a35 >= mayorDe35)
+                    {
+                        mayor = de19a35;
+                    }
+                    else
+                    {
+                        if(mayorDe35 >= de19a35 && mayorDe35 >= de19a35)
+                        {
+                        mayor = mayorDe35;
+                        }
+                    }
+                }
 
                 for(i=mayor; i>0; i--)
                 {
@@ -110,5 +122,5 @@ void mostrarGrafico(EPersona lista[])
                 }
                 printf("-----------------");
                 printf("\n<18\t19-35\t>35\n");
-                printf("\n   %d\t%d\t%d", hasta18, de19a35, mayorDe35);
+                printf("\n   %d\t%d\t%d\n\n", hasta18, de19a35, mayorDe35);
 }
